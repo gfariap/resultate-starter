@@ -1,0 +1,62 @@
+.skin-resultate {
+  //Navbar
+  .main-header {
+    .navbar {
+      .navbar-variant(lighten(@yellow, 10%); #000);
+      .sidebar-toggle {
+        color: #fff;
+        &:hover {
+          background-color: @yellow;
+        }
+      }
+      @media (max-width: @screen-header-collapse) {
+        .dropdown-menu {
+          li {
+            &.divider {
+              background-color: rgba(255, 255, 255, 0.1);
+            }
+            a {
+              color: #fff;
+              &:hover {
+                background: @yellow;
+              }
+            }
+          }
+        }
+      }
+    }
+    //Logo
+    .logo {
+      .logo-variant(@yellow);
+
+      .logo-lg {
+        img {
+          max-width: 150px;
+          vertical-align: sub;
+        }
+      }
+
+      .logo-mini {
+        img {
+          max-height: 30px;
+        }
+      }
+    }
+
+    li.user-header {
+      background-color: lighten(@yellow, 10%);
+    }
+  }
+
+  //Content Header
+  .content-header {
+    background: transparent;
+  }
+
+  .main-footer {
+    text-align: right;
+  }
+
+  //Create the sidebar skin
+  .skin-dark-sidebar(lighten(@yellow, 10%));
+}

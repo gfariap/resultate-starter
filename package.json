@@ -1,0 +1,15 @@
+{
+  "name": "resultate",
+  "private": true,
+  "devDependencies": {
+    "font-awesome": "^4.4.0",
+    "gulp": "^3.8.8",
+    "sweetalert": "^1.1.0"
+  },
+  "dependencies": {
+    "laravel-elixir": "^3.0.0",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "admin-lte": "~2.3.0"
+  }
+}
