@@ -11,4 +11,5 @@ Based on [AdminLTE](https://github.com/almasaeed2010/AdminLTE), built with [Lara
 - Install Composer dependencies (`composer install`)
 - Install NPM dependencies (`npm install`)
 - Define application name (`php artisan app:name YourAppName`)
-- Build an amazing application
+- Rename `.env.example` to `.env` and configure your environment variables
+- Build your application
